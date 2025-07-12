@@ -56,25 +56,25 @@ An advanced, full-featured News Portal Website built using **Laravel 10.x**, fea
 git clone https://github.com/your-username/laravel-news-portal.git
 cd laravel-news-portal
 
-# Install dependencies
-composer install
+ - Install dependencies
+- composer install
 
-# Copy environment variables and generate app key
-cp .env.example .env
-php artisan key:generate
+- Copy environment variables and generate app key
+- cp .env.example .env
+- php artisan key:generate
 
-# Configure your .env file with database and mail credentials
+- Configure your .env file with database and mail credentials
 
-# Run migrations and seed the database
-php artisan migrate --seed
+-  Run migrations and seed the database
+- php artisan migrate --seed
 
-# Create symbolic link for storage
-php artisan storage:link
+- Create symbolic link for storage
+- php artisan storage:link
 
-# Start the development server
-php artisan serve
+- Start the development server
+- php artisan serve
 
-Access the website at http://127.0.0.1:8000
+- Access the website at http://127.0.0.1:8000
 
 
 ## 🧪 Testing
