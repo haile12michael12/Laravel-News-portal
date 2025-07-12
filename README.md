@@ -51,7 +51,7 @@ An advanced, full-featured News Portal Website built using **Laravel 10.x**, fea
 
 ## ⚙️ Installation
 
-```bash
+
 # Clone the repository
 git clone https://github.com/your-username/laravel-news-portal.git
 cd laravel-news-portal
@@ -77,7 +77,7 @@ php artisan serve
 Access the website at http://127.0.0.1:8000
 
 
-🧪 Testing
+## 🧪 Testing
 Run automated tests to ensure everything works correctly:
 php artisan test
 Test Coverage Includes:
@@ -92,7 +92,7 @@ API endpoints
 
 Newsletter subscription
 
-🧑‍💻 Usage & Development
+## 🧑‍💻 Usage & Development
 Admins manage news, users, categories, tags, and site settings.
 
 Editors/Reporters publish articles with media attachments.
@@ -105,7 +105,7 @@ Comments can be enabled/disabled per article.
 
 REST API available for mobile apps or custom frontends.
 
-🚀 Deployment
+## 🚀 Deployment
 You can deploy this project using:
 
 Laravel Forge
@@ -116,14 +116,14 @@ Railway
 
 VPS / Cloud providers (e.g., DigitalOcean, AWS, Linode)
 
-Production Deployment Steps:
+# Production Deployment Steps:
 
 composer install --optimize-autoloader --no-dev
 php artisan migrate --force
 php artisan config:cache
 php artisan route:cache
 php artisan view:cache
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Please follow these steps:
 
 Fork the repository
@@ -138,7 +138,7 @@ Open a Pull Request
 
 For major changes, open an issue first to discuss your ideas.
 
-🐳 Optional Enhancements
+## 🐳 Optional Enhancements
 Would you like to include?
 
 ✅ CI/CD with GitHub Actions
@@ -157,7 +157,7 @@ Would you like to include?
 
 Feel free to request or contribute these features!
 
-📄 License
+## 📄 License
 This project is open-source and available under the MIT License.
 
 
